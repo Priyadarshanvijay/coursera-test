@@ -21,12 +21,10 @@
 .section-title {
 	font-size: 1.42em;
 	text-align: center;
-	width: 25%;
-	height: 35px;
-	position: absolute;
-	top: 0;
-	right: 0;
+	float: right;
 	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-bottom-color: black;
 	border-left-color: black;
 	border-bottom-width: 1px;
@@ -36,7 +34,6 @@
 }
 
 .Chicken {
-	width: 33%;
 	background-color: pink;
 }
 
@@ -55,7 +52,7 @@
 	border-color: black;
 	border-style: solid;
 	background-color: gray;
-	padding: 10px;
+	padding-left: 10px;
 }
 
 .section-content p {
